@@ -14,6 +14,7 @@ async def Watcher():
     current_path = Path(__file__).parent
 
     # Initial load
+    yield "Starting to load modules..."
     p = current_path.iterdir()
     for f in p:
         if f.is_file():
