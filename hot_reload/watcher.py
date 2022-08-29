@@ -9,7 +9,7 @@ from watchdog.observers import Observer
 
 
 @xlo.func
-async def Serve():
+async def Watcher():
     # debugpy.debug_this_thread()
     current_path = Path(__file__).parent
 

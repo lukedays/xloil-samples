@@ -7,4 +7,4 @@ import debugpy
 # @debug_func # Doesn't work together with xlo.func. The function doesn't get registered
 def BreakpointTest():
     debugpy.debug_this_thread()
-    return 3
+    return 1
